@@ -1,0 +1,65 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+*.env
+
+# Supabase
+supabase/.branches
+supabase/.temp
+supabase/config.toml
+**/supabase/config.toml
+
+# API Keys and Secrets
+**/secrets/
+secrets.json
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.cert
+
+# Data files
+data/
+*.csv
+*.xlsx
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Publishing keys
+publish_key*
+*.pub
+ssh_keys/
+
+# Node modules and dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
